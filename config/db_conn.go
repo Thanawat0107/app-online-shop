@@ -10,7 +10,7 @@ func NewDbConn(env *Env) *DbConn {
 	mainDb := database.NewSqlServerDatabase(env.DB_HOST, env.DB_USERNAME, env.DB_PASSWORD, env.DB_NAME)
 	return &DbConn{
 		dbs: map[string]database.Database{
-			"mssql": mainDb,
+			"main": mainDb,
 		},
 	}
 }
