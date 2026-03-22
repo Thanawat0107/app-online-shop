@@ -1,0 +1,29 @@
+# https://github.com/uwuluck23uwu/app-online-shop.git
+# Binaries for programs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, generated with go test -c
+*.test
+
+# Output of the go build command
+# for a single package, or for an entire workspace.
+# go build
+# go install
+*.out
+
+# Dependency directories (from vendor mode)
+vendor/
+
+# Go workspace file
+go.work.lock
+
+# IDE or editor-specific files
+# e.g., VS Code
+.vscode/
+
+# Environment files
+.env
