@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github/uwuluck23uwu/app-online-shop/config"
-	"github/uwuluck23uwu/app-online-shop/internal/infra/database"
-	"github/uwuluck23uwu/app-online-shop/internal/infra/database/models"
+	"github.com/Thanawat0107/app-online-shop/config"
+	"github.com/Thanawat0107/app-online-shop/internal/infra/database"
+	"github.com/Thanawat0107/app-online-shop/internal/infra/database/models"
 )
 
 func main() {

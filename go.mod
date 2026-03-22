@@ -1,4 +1,4 @@
-module github/uwuluck23uwu/app-online-shop
+module github.com/Thanawat0107/app-online-shop
 
 go 1.26.1
 

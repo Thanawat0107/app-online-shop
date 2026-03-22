@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github/uwuluck23uwu/app-online-shop/config"
-	"github/uwuluck23uwu/app-online-shop/internal/app/itemshop"
-	"github/uwuluck23uwu/app-online-shop/internal/middleware"
+	"github.com/Thanawat0107/app-online-shop/config"
+	"github.com/Thanawat0107/app-online-shop/internal/app/itemshop"
+	"github.com/Thanawat0107/app-online-shop/internal/middleware"
 
 	"github.com/labstack/echo/v5"
 )

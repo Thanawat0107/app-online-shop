@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github/uwuluck23uwu/app-online-shop/config"
-	"github/uwuluck23uwu/app-online-shop/internal/infra/database"
-	"github/uwuluck23uwu/app-online-shop/internal/infra/database/models"
 	"log"
+
+	"github.com/Thanawat0107/app-online-shop/config"
+	"github.com/Thanawat0107/app-online-shop/internal/infra/database"
+	"github.com/Thanawat0107/app-online-shop/internal/infra/database/models"
 
 	"gorm.io/gorm"
 )

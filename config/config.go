@@ -3,7 +3,7 @@ package config
 import (
 	"log"
 
-	"github/uwuluck23uwu/app-online-shop/internal/infra/database"
+	"github.com/Thanawat0107/app-online-shop/internal/infra/database"
 )
 
 type Config struct {
@@ -24,6 +24,6 @@ func (c *Config) GetDb(key string) database.Database {
 	if db, exist := c.database.dbs[key]; exist {
 		return db
 	}
-	log.Fatal("Error: database with name=%s not found", key)
+	log.Fatalf("Error: database with name=%s not found", key)
 	return nil
 }
